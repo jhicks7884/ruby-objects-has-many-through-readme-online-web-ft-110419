@@ -1,5 +1,7 @@
 class Customer
-  attr_reader :name, :age
+  attr_accessor :name, :age
+
+  @@all = []
 
   def initialize(new)
     name = 'Ian'
