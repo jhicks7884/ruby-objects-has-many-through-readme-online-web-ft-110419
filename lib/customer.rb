@@ -4,8 +4,9 @@ class Customer
   @@all = []
 
   def initialize(new)
-    name = 'Ian'
-    age = 30
+    @name = name
+    @ age = age
+     @@all << self
   end
 
 end
